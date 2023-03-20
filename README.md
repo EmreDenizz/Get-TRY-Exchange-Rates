@@ -7,4 +7,4 @@ Get TRY Exchange Rates From TCMB
 Run **index.php** file
 
 ### DESCRIPTIONS:
-Gets USD-TRY, EUR-TRY and GBP-TRY currencies from https://www.tcmb.gov.tr/kurlar/today.xml
+Gets USD-TRY, EUR-TRY and GBP-TRY currencies from TCMB https://www.tcmb.gov.tr/kurlar/today.xml
