@@ -5,8 +5,8 @@ sleep(2);
 
 if($exchange_rates){
     // USD
-    $dolar_buy = round($exchange_rates->Currency[0]->BanknoteBuying, 2);
-    $dolar_sell = round($exchange_rates->Currency[0]->BanknoteSelling, 2);
+    $dollar_buy = round($exchange_rates->Currency[0]->BanknoteBuying, 2);
+    $dollar_sell = round($exchange_rates->Currency[0]->BanknoteSelling, 2);
     
     // EUR
     $euro_buy = round($exchange_rates->Currency[3]->BanknoteBuying, 2);
@@ -16,9 +16,8 @@ if($exchange_rates){
     $pound_buy = round($exchange_rates->Currency[4]->BanknoteBuying, 2);
     $pound_sell = round($exchange_rates->Currency[4]->BanknoteSelling, 2);
     
-    // UPDATE currencies
-    if($dolar_sell && $euro_sell && $pound_sell){
-	var_dump("[{USD: $dolar_sell}, {EUR: $euro_sell}, {GBP: $pound_sell}]");
+    if($dollar_sell && $euro_sell && $pound_sell){
+	var_dump("[{USD: $dollar_sell}, {EUR: $euro_sell}, {GBP: $pound_sell}]");
     }
     else{
 	var_dump("ERROR");
