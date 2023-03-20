@@ -18,10 +18,10 @@ if($exchange_rates){
     
     // UPDATE currencies
     if($dolar_sell && $euro_sell && $pound_sell){
-		var_dump("[{USD: $dolar_sell}, {EUR: $euro_sell}, {GBP: $pound_sell}]");
+	var_dump("[{USD: $dolar_sell}, {EUR: $euro_sell}, {GBP: $pound_sell}]");
     }
     else{
-		var_dump("ERROR");
+	var_dump("ERROR");
     }
 }
 else{
