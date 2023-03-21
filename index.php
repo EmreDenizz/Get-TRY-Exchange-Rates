@@ -16,6 +16,7 @@ if($exchange_rates){
     $pound_buy = round($exchange_rates->Currency[4]->BanknoteBuying, 2);
     $pound_sell = round($exchange_rates->Currency[4]->BanknoteSelling, 2);
     
+    // Print result 
     if($dollar_sell && $euro_sell && $pound_sell){
 	var_dump("[{USD: $dollar_sell}, {EUR: $euro_sell}, {GBP: $pound_sell}]");
     }
