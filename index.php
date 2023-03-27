@@ -1,4 +1,8 @@
 <?php
+/**
+ * @author Emre Deniz <https://github.com/EmreDenizz>
+*/
+
 $exchange_rates = simplexml_load_file('https://www.tcmb.gov.tr/kurlar/today.xml');
 
 sleep(2);
